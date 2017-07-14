@@ -1,26 +1,17 @@
 {
-  "name": "newapp",
+  "name": "name-generator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "css-loader": "^0.28.4",
-    "immutable": "^3.8.1",
-    "lodash": "^4.17.4",
     "react": "^15.6.1",
-    "react-actioncable-provider": "^0.1.0",
-    "react-dom": "^15.6.1",
-    "react-input-autosize": "^1.1.4",
-    "react-scripts": "1.0.10",
-    "sass-loader": "^6.0.6",
-    "scss-loader": "0.0.1",
-    "style-loader": "^0.18.2"
+    "react-dom": "^15.6.1"
   },
   "devDependencies": {
     "node-sass-chokidar": "^0.0.3",
     "react-scripts": "1.0.10"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "yarn watch-css & react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
